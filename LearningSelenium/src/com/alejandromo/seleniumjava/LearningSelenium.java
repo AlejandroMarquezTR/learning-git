@@ -9,5 +9,6 @@ public class LearningSelenium {
         String url = "http://demo.automationtesting.in/Register.html";
 
         driver.get(url);
+        driver.close();
     }
 }
