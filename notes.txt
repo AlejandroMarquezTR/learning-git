@@ -1,0 +1,13 @@
+Git commands
+
+- git add <parameters **>
+Add file status to reposiory
+	** Specific files <*.<file extension>>
+	** All files needed to be added <.>
+
+- git commit <parameters **>
+Add new version to repository
+	**  Add a message <-m "<message>">
+
+- git status
+View status for repository
