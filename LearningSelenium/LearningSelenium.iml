@@ -7,5 +7,21 @@
     </content>
     <orderEntry type="jdk" jdkName="16" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../Automation/Selenium/libs/byte-buddy-1.8.15.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../../Automation/Selenium/libs/commons-exec-1.3.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../../Automation/Selenium/libs/guava-25.0-jre.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../../Automation/Selenium/libs/okhttp-3.11.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../../Automation/Selenium/libs/okio-1.14.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../../Automation/Selenium/client-combined-3.141.59.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../../../../Automation/Selenium/client-combined-3.141.59-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>
