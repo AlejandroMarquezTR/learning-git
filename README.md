@@ -1,1 +1,1 @@
-# learning-git
+# Repositorio para practicar con git y Github
