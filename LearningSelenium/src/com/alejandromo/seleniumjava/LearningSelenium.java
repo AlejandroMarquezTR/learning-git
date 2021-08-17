@@ -45,7 +45,15 @@ public class LearningSelenium {
 
             //Using findElements() by xpath
             webElement = driver.findElement(By.xpath("/html/body/footer/div/div/div[1]/ul/li[1]/a"));
-            System.out.println("\nElement finded by xpath: " + webElement.getText());
+            System.out.println("\nElement found by xpath: " + webElement.getText());
+            //Simulating click event
+            webElement.click();
+
+            if (driver.getTitle().contentEquals("About Us")){
+                System.out.println("Test pass 👍");
+            } else {
+                System.out.println("Test fail 👎");
+            }
 
         } else {
             System.out.println("Wrong site 👎");
